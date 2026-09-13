@@ -1,11 +1,11 @@
 cask "freecoffee" do
   version "1.1.0"
-  sha256 "4d67562bb2632e025af8235adccb0d344351708317f9e91089c0e21f25bfccce"
+  sha256 "9fe1550c008ef7e3151cf139296c959dea115a372c26af9a81ed5d329f0dd0d1"
 
   url "https://github.com/ayodhyamohanthy/freecoffee/releases/download/v#{version}/FreeCoffee.dmg"
   name "FreeCoffee"
   desc "Menu-bar ads that pay you back — FreeCoffee buys the coffee"
-  homepage "https://ayodhyamohanthy.github.io/freecoffee/"
+  homepage "https://freecoffee.tech/"
 
   livecheck do
     url :homepage
