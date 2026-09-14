@@ -1,8 +1,8 @@
 cask "freecoffee" do
-  version "1.1.3"
-  sha256 "ff0ab59eb263a66f60a45ebc40baab3c3fb00ddbf298080419ebc85b2c5720b2"
+  version "1.1.4"
+  sha256 "a33c8093061eefcac171c63f27b978674222983f1de8e39cc8c324de22502fd5"
 
-  url "https://github.com/ayodhyamohanthy/freecoffee/releases/download/v#{version}/FreeCoffee.dmg"
+  url "https://github.com/ayodhyamohanthy/freecoffee-dist/releases/download/v#{version}/FreeCoffee.dmg"
   name "FreeCoffee"
   desc "Menu-bar ads that pay you back — FreeCoffee buys the coffee"
   homepage "https://freecoffee.tech/"
@@ -22,8 +22,7 @@ cask "freecoffee" do
   end
 
   caveats <<~EOS
-    FreeCoffee is an unsigned open-source demo build (single-file Swift,
-    auditable in the public repo). The cask automatically removes the
+    FreeCoffee is an unsigned demo build. The cask automatically removes the
     quarantine flag, so Gatekeeper never prompts. Earnings are simulated.
   EOS
 end
