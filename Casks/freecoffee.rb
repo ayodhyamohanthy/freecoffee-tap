@@ -1,6 +1,6 @@
 cask "freecoffee" do
-  version "1.2.3"
-  sha256 "e7c4900204a16aebbdd5c6860b8adb1dc7bf0b644457d561bc7d5fdfe960aba1"
+  version "1.2.4"
+  sha256 "252ebc1719fdd54ba7904b0085ce917718639f22c230bca231cf51e0a2908cf8"
 
   url "https://github.com/ayodhyamohanthy/freecoffee-dist/releases/download/v#{version}/FreeCoffee.dmg"
   name "FreeCoffee"
